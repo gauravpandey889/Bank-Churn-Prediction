@@ -1,0 +1,39 @@
+{
+  "best_model": "Random Forest",
+  "threshold": 0.43999999999999995,
+  "test_roc_auc": 0.864955864955865,
+  "test_f1_at_threshold": 0.6208425720620843,
+  "test_confusion_matrix": [
+    [
+      1378,
+      215
+    ],
+    [
+      127,
+      280
+    ]
+  ],
+  "churn_rate": 0.2037,
+  "rows": 10000,
+  "train_rows": 8000,
+  "test_rows": 2000,
+  "features": [
+    "CreditScore",
+    "Geography",
+    "Gender",
+    "Age",
+    "Tenure",
+    "Balance",
+    "NumOfProducts",
+    "HasCrCard",
+    "IsActiveMember",
+    "EstimatedSalary",
+    "BalanceSalaryRatio",
+    "EngagementProducts",
+    "AgeTenure",
+    "ProductsPerTenure"
+  ],
+  "year_unique": [
+    2025
+  ]
+}
